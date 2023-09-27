@@ -1,0 +1,87 @@
+#p_aside_izqdo, #p_aside_dcho, #p_contenido{
+	position: relative;
+	text-align: center;
+	top: 50%;
+	margin: 0;
+	padding: 0;
+}
+#p_contenido{
+	position: relative;
+	text-align: center;
+}
+#menu, #pie, #titulo{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	top: 50%;
+}
+html,body{
+	height: 98%;
+	width: auto;
+}
+body{
+	background-color: dimgray;
+  	display: grid;
+  	grid-template-areas:
+	  	'header header header header'
+	  	'menu menu menu menu'
+	  	'asidel main main asider'
+	  	'asidel main main asider'
+	  	'footer footer footer footer';
+  	gap: 10px;
+  	padding: 10px;
+
+}
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	grid-area: header;
+}
+nav{
+	background-color: skyblue;
+	grid-area: menu;
+}
+main{
+	background-color: lightblue;
+	grid-area: main;
+}
+section{
+	display: grid;
+	grid-template-areas: 
+		'bloque1 bloque2';
+	height: 15%;
+}
+article#artic1{
+	grid-area: bloque1;
+	background-color: dimgrey;
+	text-align: center;
+}
+article#artic2{
+	grid-area: bloque2;
+	background-color: slategrey;
+	text-align: center;
+}
+
+div#contenido{
+	margin: 0;
+	padding: 0;
+	
+}
+aside#aside_izqdo {
+	background-color: sandybrown;
+	grid-area: asidel;
+}
+aside#aside_dcho {
+	background-color: rosybrown;
+	grid-area: asider;
+}
+footer{
+	background-color: greenyellow;
+	grid-area: footer;
+}
+
