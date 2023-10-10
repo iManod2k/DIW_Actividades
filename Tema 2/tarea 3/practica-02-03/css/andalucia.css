@@ -1,0 +1,66 @@
+div#historia p{
+	font-family: "Times New Roman Cyr";
+}
+
+div#cuerpo div span:nth-child(2){
+	font-family: "ComicSans MS",cursive;
+	text-decoration: underline;
+	font-weight: bold;
+	color:orange;
+}
+
+h3+div{
+	font-family: "Tahoma";
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+@media (width < 400px){
+	div#historia p{
+		font-size: 9dpi;
+		color: red;
+	}
+	div#cuerpo div span:nth-child(2){
+		font-size: 10dpi;
+		color:blue;
+	}
+	h3+div{
+		font-size: 10dpi;
+		color:green;
+	}
+}
+
+@media (400px <= width <= 800px){
+	div#historia p{
+		font-size: 11dpi;
+		color: green;
+	}
+	div#cuerpo div span:nth-child(2){
+		font-size: 10dpi;
+		color:red;
+	}
+	h3+div{
+		font-size: 12dpi;
+		color:red;
+	}
+}
+
+@media (width > 800px){
+	div#historia p{
+		font-size: 13dpi;
+		color: blue;
+	}
+	div#cuerpo div span:nth-child(2){
+		font-size: 12dpi;
+		color:green;
+	}
+	h3+div{
+		font-size: 14dpi;
+		color:blue;
+	}
+}
