@@ -30,45 +30,45 @@ li {
 
 @media (width < 400px){
 	div#historia p{
-		font-size: 9dpi;
+		font-size: 9pt;
 		color: red;
 	}
 	div#cuerpo div span:nth-child(2){
-		font-size: 10dpi;
+		font-size: 10pt;
 		color:blue;
 	}
 	h3+div{
-		font-size: 10dpi;
+		font-size: 10pt;
 		color:green;
 	}
 }
 
 @media (400px <= width <= 800px){
 	div#historia p{
-		font-size: 11dpi;
+		font-size: 11pt;
 		color: green;
 	}
 	div#cuerpo div span:nth-child(2){
-		font-size: 10dpi;
+		font-size: 10pt;
 		color:red;
 	}
 	h3+div{
-		font-size: 12dpi;
+		font-size: 12pt;
 		color:red;
 	}
 }
 
 @media (width > 800px){
 	div#historia p{
-		font-size: 13dpi;
+		font-size: 13pt;
 		color: blue;
 	}
 	div#cuerpo div span:nth-child(2){
-		font-size: 12dpi;
+		font-size: 12pt;
 		color:green;
 	}
 	h3+div{
-		font-size: 14dpi;
+		font-size: 14pt;
 		color:blue;
 	}
 }
