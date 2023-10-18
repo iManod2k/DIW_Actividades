@@ -2,7 +2,7 @@ div#historia p{
 	font-family: "Times New Roman Cyr";
 }
 
-div#cuerpo div span:nth-child(2){
+div#cuerpo div span{
 	font-family: "ComicSans MS",cursive;
 	text-decoration: underline;
 	font-weight: bold;
