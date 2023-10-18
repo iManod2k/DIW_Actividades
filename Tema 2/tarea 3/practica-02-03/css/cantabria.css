@@ -1,0 +1,133 @@
+/*[class="historia"]{
+	color:red;
+}*/
+
+*.historia{
+	font-family: "Century";
+	color: #CBE68D;
+}
+
+
+h3[title]{
+	color: #948B0E;
+	font-family: "Arial";
+}
+
+[class*="cantabra"]{
+	font-family: "Corbel";
+	color: #54B3B6;
+}
+
+[title^="Cantabra"]{
+	font-family: "Georgia";
+	color: #751A7C;
+}
+
+[title$="loco"]{
+	font-family: "Latha";
+	color: #273CDD;
+}
+
+[title*="conquista"]{
+	font-family: "Calibri" !important;
+	color: #910D1F !important;
+	font-size: 3px !important;
+}
+
+[class="reconquista"]:first-letter{
+	font-size: 27pt;
+	color: #CDB3DD;
+}
+
+[class="cantabria"]:first-line{
+	text-transform: capitalize;
+	font-size: 27pt;
+	color: red;
+}
+
+
+
+
+
+
+@media(width < 450px){
+	[title*="conquista"]{
+		font-family: "Calibri" !important;
+		color: #910D1F !important;
+		font-size: 8pt !important;
+	}
+	[title$="loco"]{
+		font-family: "Latha";
+		color: #273CDD;
+		font-size: 12pt;
+	}
+	[title^="Cantabra"]{
+		font-family: "Georgia";
+		color: #751A7C;
+		font-size: 11pt;
+	}
+	[class*="cantabra"]{
+		font-family: "Corbel";
+		color: #54B3B6;
+		font-size: 9pt;
+	}
+	*.historia{
+		font-family: "Century";
+		color: #CBE68D;
+		font-size: 9pt;
+	}
+}
+@media(450px <= width <= 900px){
+	[title*="conquista"]{
+		font-family: "Calibri" !important;
+		color: #910D1F !important;
+		font-size: 10pt !important;
+	}
+	[title$="loco"]{
+		font-family: "Latha";
+		color: #273CDD;
+		font-size: 12pt;
+	}
+	[title^="Cantabra"]{
+		font-family: "Georgia";
+		color: #751A7C;
+		font-size: 12pt;
+	}
+	*.historia{
+		font-family: "Century";
+		color: #CBE68D;
+		font-size: 11pt;
+	}
+	[class*="cantabra"]{
+		font-family: "Corbel";
+		color: #54B3B6;
+		font-size: 11pt;
+	}
+}
+@media(width > 900px){
+	[title*="conquista"]{
+		font-family: "Calibri" !important;
+		color: #910D1F !important;
+		font-size: 12pt !important;
+	}
+	[title$="loco"]{
+		font-family: "Latha";
+		color: #273CDD;
+		font-size: 13pt;
+	}
+	[title^="Cantabra"]{
+		font-family: "Georgia";
+		color: #751A7C;
+		font-size: 13pt;
+	}
+	*.historia{
+		font-family: "Century";
+		color: #CBE68D;
+		font-size: 12pt;
+	}
+	[class*="cantabra"]{
+		font-family: "Corbel";
+		color: #54B3B6;
+		font-size: 12pt;
+	}
+}
